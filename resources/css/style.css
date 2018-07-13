@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+/*
+  HEADER CSS - DO NOT TOUCH EVER
+  NEVER EVER CHANGE ANYTHING.
+*/
+header {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav a {
+  color: seashell;
+}
+/* --------------------------------- */
+
+#part1 {
+  background-image: url(./img-mission-background.jpg);
+  height: 700px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#part1 .content {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+}
