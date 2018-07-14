@@ -7,6 +7,11 @@ body {
   text-align: center;
 }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
 /*
   HEADER CSS - DO NOT TOUCH EVER
   NEVER EVER CHANGE ANYTHING.
@@ -40,10 +45,20 @@ nav span {
 nav a {
   color: seashell;
 }
-/* --------------------------------- */
+/* HEADER CSS END */
 
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* PART1 START */
 #part1 {
   background-image: url(./img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 700px;
 }
 
@@ -59,3 +74,37 @@ nav a {
   text-align: center;
   background-color: black;
 }
+/* PART1 END */
+
+/* PART2 START */
+#part2 {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.store {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+}
+
+.item span {
+  text-align: center;
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+}
+/* PART2 END */
+
+/* PART3 START */
+/* PART3 END */
+
+/* CONTACT START */
+/* CONTACT END */
